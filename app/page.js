@@ -8,6 +8,10 @@ export default function Page() {
         <Link legacyBehavior href='http://localhost:3000/week-2' passHref>
             <a target="_blank" style={{color:'blue', textDecoration:'underline'}}>Week-2 Assignment</a>
         </Link>
+
+        <Link legacyBehavior href='http://localhost:3000/week-3' passHref>
+            <a target="_blank" style={{color:'blue', textDecoration:'underline'}}>Week-3 Assignment</a>
+        </Link>
       </main>
   );
 }
