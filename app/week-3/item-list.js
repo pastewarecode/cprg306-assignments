@@ -1,5 +1,6 @@
-export default function ItemList({name, quantity, category}) {
-        
+import React from 'react';
+import Item from './item';
+    
     const item1 = {
         name: "milk, 4 L 🥛",
         quantity: 1,
@@ -72,8 +73,20 @@ export default function ItemList({name, quantity, category}) {
         category: "household",
     };
 
+    const allItems = [item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12];
 
 
-    
-
+export default function ItemList() {
+    return (
+        <ul>
+            {allItems.map((item, index) => (
+                <Item
+                key = {index}
+                name = {item.name}
+                quantity = {item.quantity}
+                category = {item.category}
+                />
+            ))}
+        </ul>
+    );
 } 
