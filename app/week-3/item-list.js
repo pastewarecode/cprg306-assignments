@@ -78,7 +78,7 @@ import Item from './item';
 
 export default function ItemList() {
     return (
-        <ul>
+        <ul className='space-y-4 p-4 text-lg'>
             {allItems.map((item, index) => (
                 <Item
                 key = {index}
