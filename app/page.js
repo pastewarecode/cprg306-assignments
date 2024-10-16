@@ -25,6 +25,13 @@ export default function Page() {
           <Link legacyBehavior href='http://localhost:3000/week-4' passHref>
               <a className='text-blue-700 hover:text-violet-900 underline' target="_blank">Week-4 Assignment</a>
           </Link>
+
+          <br></br>
+          <br></br> 
+
+          <Link legacyBehavior href='http://localhost:3000/week-5' passHref>
+              <a className='text-blue-700 hover:text-violet-900 underline' target="_blank">Week-5 Assignment</a>
+          </Link>
         </div>
 
 
