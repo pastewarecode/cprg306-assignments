@@ -44,6 +44,20 @@ export default function Page() {
           <Link legacyBehavior href='http://localhost:3000/week-7' passHref>
               <a className='text-blue-700 hover:text-violet-900 underline' target="_blank">Week-7 Assignment</a>
           </Link>
+
+          <br></br>
+          <br></br> 
+
+          <Link legacyBehavior href='http://localhost:3000/week-8' passHref>
+              <a className='text-blue-700 hover:text-violet-900 underline' target="_blank">Week-8 Assignment</a>
+          </Link>
+
+          <br></br>
+          <br></br> 
+
+          <Link legacyBehavior href='http://localhost:3000/week-9' passHref>
+              <a className='text-blue-700 hover:text-violet-900 underline' target="_blank">Week-9 Assignment</a>
+          </Link>
         </div>
       </main>
   );
