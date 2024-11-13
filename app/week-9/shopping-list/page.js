@@ -23,7 +23,7 @@ export default function ProtectedPage() {
             (
                 <div>
                     <p>You must be logged in to view this page</p>
-                    <Link href="http://localhost:3000/week-9/shopping-list">Click here to return to the Sign In page.</Link>
+                    <Link href="http://localhost:3000/week-9/" className="underline text-blue">Click here to return to the Sign In page.</Link>
                 </div>
             )}
         </main>
